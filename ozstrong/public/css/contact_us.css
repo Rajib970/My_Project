@@ -1,0 +1,28 @@
+body, html{
+     overflow-x: hidden;
+     
+}
+
+
+/* Responsive in desktop ,laptop screen */
+
+@media(min-width:1200px){
+     }
+
+/* Responsive in mobile, tablet screen */
+
+@media(max-width: 1100px){
+      #sidebar .card{
+     display: none;
+   }
+    #sidebar p{
+    	margin: 2%;
+    }
+
+   #service_areas{
+     display: none;
+   }
+   #hd {
+   text-align: center;
+   }
+}

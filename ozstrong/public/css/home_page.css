@@ -1,0 +1,124 @@
+body, html{
+  overflow-x:hidden;
+  max-width:100%;
+}
+#fst_sec_row1_col2{
+  border-top: 8px solid  #007ad4  ;
+  border-bottom: 8px solid  #007ad4;
+    border-radius: 30px;
+}
+.card-img-wrap ,#card_btn {
+  overflow: show ;
+  position: relative;
+}
+.card-img-wrap:after {
+  content: '';
+  /*position: absolute;*/
+  top: 0; left: 0; right: 0; bottom: 0;
+  /*background: rgba(255,255,255,0.3);*/
+  opacity: 0;
+  transition: opacity 2s;
+}
+.card-img-wrap img  {
+  transition: transform 2s;
+  width: 100%;
+}
+.card-img-wrap:hover img{
+  transform: scale(1.2);
+}
+.card-img-wrap:hover:after {
+  opacity: 1;
+}
+#svnth_sec_row{
+  background-image: url('/Projects/ozstrong//public/img/bg_transpt.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+
+/* Responsive in desktop, laptop screen */
+@media(min-width: 1200px){
+  #fst_sec{
+  background-image: url('/Projects/ozstrong/public/img/backimage.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+}
+  #trd_sec_row_1{
+    margin-top:50px;
+  }
+  #eth_sec_row2 .card{
+    width: 18rem;
+    margin-left: 5%;
+  }
+  #fth_sec_row1 a{
+    top: 80%;
+  }
+  #fth_sec_row2 a{
+    top: 80%;
+  }
+  #svnth_sec_p1{
+  margin-top: 50px;
+}
+#svnth_sec_p3{
+  margin-top: 130px;
+}
+  #tnth_sec_row1_col1{
+    background-image: url('/Projects/ozstrong/public/img/door1.jpg');
+    height: 100%;
+    background-size:cover;
+    repeat:no-repeat;
+  }
+  #tnth_sec_row1_col1 #p1, #p4{
+    margin-top:140px ;
+  }
+
+
+}
+#background
+{
+  cursor: pointer;
+}
+
+/* End */
+
+/* Responsive in Mobile, Tablet screen */
+@media(max-width:1100px){
+ #fst_sec{
+  background-image:none;
+}
+#fth_sec_row1 a{
+ top: 80%;
+}
+#fth_sec_row2 a{
+ top: 80%;
+}
+#sxth_sec_img1,#sxth_sec_img2{
+  display: inline-block;
+}
+#svnth_sec_img{
+  display: inline-block;
+}
+#eth_sec_row2 .card{
+ height: 10rem;
+}
+#tnth_sec_col1 img{
+  display: inline-block;
+}
+#tnth_sec_col2 b{
+  display: inline-block;
+}
+
+}
+
+/* faq */
+
+
+/* faq */
+
+
+
+/* End */

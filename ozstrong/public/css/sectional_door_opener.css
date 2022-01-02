@@ -1,0 +1,46 @@
+body, html{
+	overflow-x: hidden;
+	
+}
+ul{
+    list-style-type: none;
+}
+
+
+/* Responsive in desktop ,laptop screen */
+
+@media(min-width:1200px){
+    #sec_1 #col_1 #hd_2{
+        margin-left: 2%;
+
+    }
+
+}
+
+/* Responsive in mobile, tablet screen */
+
+@media(max-width: 1100px){
+  #sidebar{
+    display: none;
+}
+#service_areas{
+    display: none;
+}
+#hd {
+ text-align: center;
+}
+
+#row_1_subrow_2 #img{
+    order: 1;
+}
+#row_1_subrow_1 p, li{
+    margin-left: 5px;
+}
+#row_1_subrow_2 p, li{
+    margin-left: 5px;
+}
+#row_1_subrow_2 #content{
+    order: 2;
+}
+
+}

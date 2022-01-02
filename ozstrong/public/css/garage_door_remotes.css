@@ -1,0 +1,15 @@
+body, html{
+	overflow-x: hidden;
+}
+@media(max-width: 1100px){
+ #col_1{
+ 	order: 1;
+ }
+ #sidebar{
+ 	order: 2;
+ }
+ 
+ form, #sidebar img{
+ 	display: none;
+ }
+}
