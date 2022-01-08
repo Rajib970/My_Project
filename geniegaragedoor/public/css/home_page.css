@@ -1,0 +1,79 @@
+/* -------- Common styles ------ */ 
+html, body{
+	overflow-x: hidden;
+}
+#sec_1{
+  background-image: url('https://geniegaragedoor.tuhinbanik.com/public/img/bg_image.jpg');
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat:no-repeat;
+  position: relative;
+  background-position: center;
+  background-attachment: fixed;
+}
+ form input{
+  height: 45px;
+ }
+
+/* ---------  End of common styles ------- */
+
+/* Responsive in Mobile, Tablet Screen */
+@media(min-width: 1200px){
+ #sec_3_row_1 .card-body{
+  
+
+ }
+
+  #sec_4{
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    animation-name:img_slide;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+
+  #sec_4_row_1_col_2{
+    background-color:#f0f3f4;
+  }
+
+
+  #sec_4_row_1_col_2 hr{
+    color: #17202a;
+    height: 10px;
+    width:70%;
+    text-align: center;
+  }
+
+  @keyframes img_slide{
+    0%, 100%{
+      background-image: url('https://localhost/geniegaragedoor/public/img/garagedoor1.jpg');
+    }
+    25%{
+      background-image: url('https://localhost/geniegaragedoor/public/img/garagedoor3.jpg');
+    }
+    50%{
+      background-image: url('https://localhost/geniegaragedoor/public/img/garagedoor1.jpg');
+    }
+    75%{
+      background-image: url('https://localhost/geniegaragedoor/public/img/garagedoor3.jpg');
+    }
+  }
+
+
+}
+
+
+
+/* End of Mobile, Tablet Responsive */
+
+/* Responsive in Desktop, Laptop Screen */
+@media(mx-width: 1100px){
+
+}
+
+/* End of Desktop, Laptop Responsive */ 

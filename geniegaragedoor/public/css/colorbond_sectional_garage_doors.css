@@ -1,0 +1,31 @@
+/* ----------------- Common Styles ------------- */
+body, html{
+ overflow-x: hidden;
+}
+
+#sec_1{
+	font-family: "Georgia", serif;
+}
+
+/* ----------------- End of Common Styles ----------------- */
+
+
+
+/* -------------- Responsive in Desktop, Laptop Screen ------------- */
+
+@media(min-width: 1200px){
+
+}
+
+/* ---------------- End of Desktop, Laptop Responsive ----------------- */
+
+
+
+
+/* --------------- Responsive in Mobile, Tablet Screen --------------------- */ 
+
+@media(max-width: 1100px){
+	
+}
+
+/* ------------------- End of Responsive in Mobile, Tablet Screen ---------------- */

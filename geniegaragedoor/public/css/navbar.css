@@ -1,0 +1,25 @@
+/* ---------------  Common Styles -------------- */
+
+
+/* --------------- End of Common Styles ----------- */
+
+/* -------------- Responsive in Desktop, Laptop Screen -------------- */
+ 
+  @media(min-width:1200px){
+    
+  }
+
+
+/* ----------------- End of Desktop, Laptop Responsive view ------------------ */
+
+
+/* ----------------- Responsive in Mobile, Tablet view ----------------- */
+
+ @media(max-width: 1100px){
+   #hdr_sec_1_row_1{
+   	display: none;
+   }
+ }
+
+
+/* ------------------ End of Mobile, Tablet Responsive view ---------------- */ 

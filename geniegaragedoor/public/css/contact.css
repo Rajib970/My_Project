@@ -1,0 +1,69 @@
+/* -------------- Common styles ---------------- */
+html, body{
+	overflow-x:hidden;
+	background-image: linear-gradient(to bottom,  #aeb6bf , #aeb6bf , #85c1e9);
+}
+
+#sec_1{
+	margin-top: 22px;
+	font-family: "", ;
+
+}
+
+
+
+
+
+#sec_1_row_1_col_1 a{
+	background-color:#2604ff;
+	padding: 12px;
+}
+
+
+
+
+/* ---------------- End of Common Styles -------------- */
+
+
+
+/* -------------- Responsive in Desktop, Laptop screen ------------- */
+
+@media(min-width: 1200px){
+	#sec_1_row_3{
+		margin-top:1.7%;
+	}
+
+}
+
+/* ------------------ End of Desktop, Laptop Responsive -------------- */ 
+
+
+
+/* -------------- Responsive in Mobile, Tablet Screen ---------------- */
+
+@media(max-width: 1100px){
+	#sec_1 p{
+		text-align: center;
+	}
+
+	#sec_1_row_3 #part_1{
+		order: 2;
+	}
+
+	#sec_1_row_3 #part_2{
+		order: 1;
+	}
+
+	#sec_1_row_4 #part_1{
+		order: 2;
+	}
+
+	#sec_1_row_4 #part_2{
+		order: 1;
+	}
+
+
+
+}
+
+/* --------------- End of Mobile, Tbalet Responsive ----------------- */ 
